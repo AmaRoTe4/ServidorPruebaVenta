@@ -2,6 +2,9 @@ import express from "express";
 import cors from "cors";
 import router from "./src/routes/routes.js";
 import * as dotenv from 'dotenv'
+import google from '@google-cloud/debug-agent';
+
+google.start({serviceContext: {enableCanary: false}})
 dotenv.config()
 
 const app = express();
