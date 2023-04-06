@@ -16,6 +16,6 @@ app.get('/', (_req, res)=>{
     res.send("running")
 })
 
-app.listen(process.env.PORT ,() => {
-    console.log(`listening on port ${process.env.PORT}`)
+app.listen(process.env.PORT || 8080 ,() => {
+    console.log(`listening on port ${process.env.PORT || 8080}`)
 })

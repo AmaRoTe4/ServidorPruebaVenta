@@ -42,6 +42,7 @@ export const crearPedido = async (req , res) => {
 	        telefono: req.body.telefono,
 	        productos: req.body.productos,
 	        retirado: false,
+	        senia: false,
 	        pagado: false,
         }
 
@@ -75,6 +76,7 @@ export const editarPedido = async (req , res) => {
         }
         
         body.retirado = req.body.retirado
+        body.senia = req.body.senia
 	    body.pagado = req.body.pagado
 
         const aux = await fs.readFileSync(path)
@@ -86,7 +88,7 @@ export const editarPedido = async (req , res) => {
             return
         }
 
-        if(body.pagado && body.retirado){
+        if(body.pagado && body.retirado && body.senia){
             const resultado = borrarPedido(Number(req.params.id))
             if(!resultado) {
                 res.status(403)
@@ -94,10 +96,13 @@ export const editarPedido = async (req , res) => {
                 return
             }
             res.json(true);
+            return
         }
     
         let pedidosActualesFiltrada = jsonAux.filter(n => n.id !== Number(req.params.id))
         
+        if(pedidosActualesFiltrada === undefined) return
+
         pedidosActualesFiltrada.push(body)
     
         const newFichero = JSON.stringify(pedidosActualesFiltrada);
@@ -119,7 +124,8 @@ const borrarPedido = async (id) => {
             return false
         }
 
-        const newFichero = JSON.stringify(jsonAux.filter(n => n.id !== id))
+        const dataAux = jsonAux.filter(n => n.id !== id)
+        const newFichero = JSON.stringify(dataAux)
         await fs.writeFileSync(path , newFichero);
         return true;
     }catch(error){

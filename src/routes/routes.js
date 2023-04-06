@@ -9,6 +9,6 @@ const router = express.Router()
 
 router.get('/Pedidos', todosLosPedidos);
 router.post('/Pedidos/', crearPedido);
-router.put('/Pedidos/:id', editarPedido);
+router.post('/Pedidos/:id', editarPedido);
 
 export default router

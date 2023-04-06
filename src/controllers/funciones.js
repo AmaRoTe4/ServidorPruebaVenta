@@ -29,6 +29,7 @@ export const validacionCrear = (pedido) => {
         !correoValidacion.test(pedido.correo) ||
         pedido.pagado ||
         pedido.retirado ||
+        pedido.senia ||
         pedido.cliente === "" || 
         pedido.telefono === null ||
         pedido.dni === null
