@@ -13,6 +13,7 @@ export const proximoId = async (path) => {
 const validacionArticulos = (valor) => {
     return !Articulos.includes(valor)
 }
+
 const validacionTalles = (valor) => {
     return !Talles.includes(valor)
 }
@@ -26,6 +27,7 @@ export const validacionCrear = (pedido) => {
     let retorno = true;
 
     if(
+        typeof(pedido.titular) !== "boolean" ||
         !correoValidacion.test(pedido.correo) ||
         pedido.pagado ||
         pedido.retirado ||

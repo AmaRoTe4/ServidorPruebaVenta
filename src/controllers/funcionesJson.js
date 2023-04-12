@@ -41,6 +41,7 @@ export const crearPedido = async (req , res) => {
 	        createdAt: today,
 	        telefono: req.body.telefono,
 	        productos: req.body.productos,
+	        titular: req.body.titular,
 	        retirado: false,
 	        senia: false,
 	        pagado: false,
@@ -88,21 +89,19 @@ export const editarPedido = async (req , res) => {
             return
         }
 
-        if(body.pagado && body.retirado && body.senia){
-            const resultado = borrarPedido(Number(req.params.id))
-            if(!resultado) {
-                res.status(403)
-                res.json("Error de Validacion al borrar, datos invalidos")
-                return
-            }
-            res.json(true);
-            return
-        }
+        //if(body.pagado && body.retirado && body.senia){
+        //    const resultado = borrarPedido(Number(req.params.id))
+        //    if(!resultado) {
+        //        res.status(403)
+        //        res.json("Error de Validacion al borrar, datos invalidos")
+        //        return
+        //    }
+        //    res.json(true);
+        //    return
+        //}
     
         let pedidosActualesFiltrada = jsonAux.filter(n => n.id !== Number(req.params.id))
-        
         if(pedidosActualesFiltrada === undefined) return
-
         pedidosActualesFiltrada.push(body)
     
         const newFichero = JSON.stringify(pedidosActualesFiltrada);
