@@ -3,9 +3,8 @@ import cors from "cors";
 import router from "./src/routes/routes.js";
 import * as dotenv from 'dotenv'
 
-dotenv.config()
-
 const app = express();
+dotenv.config()
 
 app.use(cors());
 app.use(express.urlencoded({extended:false}));

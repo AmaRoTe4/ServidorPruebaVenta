@@ -1,1 +1,1395 @@
-[]
+[
+  {
+    "id": 3,
+    "cliente": "Ana luz esquivel ",
+    "correo": "esquivelanaluz147@gmail.com",
+    "dni": 46298984,
+    "createdAt": 1681434023765,
+    "telefono": 3482620956,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": false,
+        "talle": "S",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 4,
+    "cliente": "Merele Maia ",
+    "correo": "maia12merele@gmail.com",
+    "dni": 45342384,
+    "createdAt": 1681434182498,
+    "telefono": 3482214707,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": false,
+        "talle": "S",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 5,
+    "cliente": "Magali Gomez ",
+    "correo": "magaagomezz8@gmail.com",
+    "dni": 43716398,
+    "createdAt": 1681434358419,
+    "telefono": 3482405836,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": false,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 8,
+    "cliente": "Macarena Wilhelm ",
+    "correo": "makarenawilhelm52@gmail.com",
+    "dni": 39126826,
+    "createdAt": 1681436410863,
+    "telefono": 3482685955,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": false,
+        "talle": "S",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 11,
+    "cliente": "Germán Leschiutta",
+    "correo": "germanleschiutta@gmail.com",
+    "dni": 18388473,
+    "createdAt": 1681495359732,
+    "telefono": 3482202148,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 16,
+    "cliente": "Bruno",
+    "correo": "bruanvazquez@hotmail.com",
+    "dni": 44289948,
+    "createdAt": 1681509354692,
+    "telefono": 3483,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 15,
+    "cliente": "Eduardo Raffo",
+    "correo": "raffo.eduardo@inta.gob.ar",
+    "dni": 27749324,
+    "createdAt": 1681503190988,
+    "telefono": 3482597526,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 14,
+    "cliente": "Bruno Colman Kizur",
+    "correo": "brunockx@gmail.com",
+    "dni": 41974030,
+    "createdAt": 1681503108010,
+    "telefono": 3735474966,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 13,
+    "cliente": "Sofia Morales",
+    "correo": "sofibmorales@hotmail.com",
+    "dni": 44776574,
+    "createdAt": 1681503003837,
+    "telefono": 3482254258,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": false,
+        "talle": "S",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 10,
+    "cliente": "Irina Agretti ",
+    "correo": "iagretti@comunidad.frrq.utn.edu.ar",
+    "dni": 25254895,
+    "createdAt": 1681492389157,
+    "telefono": 3482264248,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": false,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 12,
+    "cliente": "Ariel Maximiliano Avila",
+    "correo": "arielavila9@gmail.com",
+    "dni": 35454425,
+    "createdAt": 1681496360828,
+    "telefono": 3482662592,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 1,
+    "cliente": "Ludmila Bonaz",
+    "correo": "lalaludb@gmail.com",
+    "dni": 37452663,
+    "createdAt": 1681432595689,
+    "telefono": 73482530596,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": false,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 7,
+    "cliente": "Maria Alejandra sosa",
+    "correo": "masosa538@gmail.com",
+    "dni": 27224538,
+    "createdAt": 1681435622023,
+    "telefono": 3405431333,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": false,
+        "talle": "S",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 19,
+    "cliente": "Aguirre Claudio",
+    "correo": "caguirre2552@comunidad.frrq.utn.edu.ar",
+    "dni": 38814434,
+    "createdAt": 1681593106577,
+    "telefono": 3482524187,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "2XL",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 24,
+    "cliente": "Abel Martinez",
+    "correo": "amartinez3340@comunidad.frrq.utn.edu.ar",
+    "dni": 37273060,
+    "createdAt": 1681742362311,
+    "telefono": 3482571800,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 23,
+    "cliente": "Guillermo Alcaraz",
+    "correo": "guillermoalcaraz22@gmail.com",
+    "dni": 37331192,
+    "createdAt": 1681734527659,
+    "telefono": 3482305424,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 21,
+    "cliente": "Guillermo Berli",
+    "correo": "guillermo.berli@hotmail.com",
+    "dni": 38598813,
+    "createdAt": 1681671373731,
+    "telefono": 3483481279,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 22,
+    "cliente": "Enrique Florentino",
+    "correo": "enriquesigaudo@gmail.com",
+    "dni": 37452518,
+    "createdAt": 1681681221175,
+    "telefono": 3483480937,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 20,
+    "cliente": "Brian Bassán ",
+    "correo": "bassanbrian@gmail.com",
+    "dni": 41635913,
+    "createdAt": 1681659439537,
+    "telefono": 3482618252,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "XL",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 18,
+    "cliente": "Javier Eduardo Alegre",
+    "correo": "javieralegrewing@gmail.com",
+    "dni": 24447010,
+    "createdAt": 1681565599777,
+    "telefono": 3482311560,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 17,
+    "cliente": "Mario Ros ",
+    "correo": "marioros317@gmail.com",
+    "dni": 27422317,
+    "createdAt": 1681517709233,
+    "telefono": 3424685572,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 26,
+    "cliente": "Gustavo Macedo ",
+    "correo": "gustavomacedo730@gmail.com",
+    "dni": 35769965,
+    "createdAt": 1681827640898,
+    "telefono": 3405433948,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 2,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 27,
+    "cliente": "Brandon Agustina Haacker ",
+    "correo": "hackerjorgegerardo@gmail.com",
+    "dni": 26223691,
+    "createdAt": 1681837881562,
+    "telefono": 3482603209,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "2XL",
+        "color": 2,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "2XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 29,
+    "cliente": "Ojeda Marcelo ",
+    "correo": "marceloojeda2323@gmail.com",
+    "dni": 42328934,
+    "createdAt": 1681934118244,
+    "telefono": 3482388007,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "2XL",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "3XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 9,
+    "cliente": "Moreyra Gabriela ",
+    "correo": "elyygabyy@gmail.com",
+    "dni": 45828177,
+    "createdAt": 1681438157729,
+    "telefono": 3482220339,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": false,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": false,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 31,
+    "cliente": "Monzón luis",
+    "correo": "ignaciomonzon37@gmail.com",
+    "dni": 45214281,
+    "createdAt": 1682021401335,
+    "telefono": 3482418814,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "3XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 33,
+    "cliente": "Ever Sandrigo",
+    "correo": "ever_sandrigo@hotmail.com.ar",
+    "dni": 42927804,
+    "createdAt": 1682110261090,
+    "telefono": 3482265928,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 32,
+    "cliente": "Patricio Martin Diez",
+    "correo": "patriciodiez@gmail.com",
+    "dni": 26002774,
+    "createdAt": 1682022784652,
+    "telefono": 3482651977,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "2XL",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "2XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 30,
+    "cliente": "Gerardo Cintes",
+    "correo": "gerardocintes@gmail.com",
+    "dni": 37970071,
+    "createdAt": 1681989726846,
+    "telefono": 3482416149,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 28,
+    "cliente": "Abel Martinez",
+    "correo": "abl.mrtz93@gmail.com",
+    "dni": 37273060,
+    "createdAt": 1681914622435,
+    "telefono": 3482571800,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 34,
+    "cliente": "Juan Cruz ",
+    "correo": "ramonlxc12@gmail.com",
+    "dni": 42330491,
+    "createdAt": 1682122297976,
+    "telefono": 3483488129,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 35,
+    "cliente": "Sergio Ghidetti",
+    "correo": "sghidetti@gmail.com",
+    "dni": 27446676,
+    "createdAt": 1682122543090,
+    "telefono": 3482405868,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "4XL",
+        "color": 2,
+        "cantidad": 2
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 36,
+    "cliente": "Laureano Gimenez ",
+    "correo": "laureanogimenez0@gmail.com",
+    "dni": 43283484,
+    "createdAt": 1682210673378,
+    "telefono": 3483438032,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 39,
+    "cliente": "Franco Studer",
+    "correo": "francostuder1029@gmail.com",
+    "dni": 43168350,
+    "createdAt": 1682348317063,
+    "telefono": 3482624918,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 38,
+    "cliente": "Belén Vicentin",
+    "correo": "belenvicentin12345678910@gmail.com",
+    "dni": 43424564,
+    "createdAt": 1682348158407,
+    "telefono": 3482255976,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": false,
+        "talle": "S",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 37,
+    "cliente": "Nicolas Gonzalez ",
+    "correo": "nikolasgonzalez1995@gmail.com",
+    "dni": 37798164,
+    "createdAt": 1682279796126,
+    "telefono": 3482625831,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "S",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 42,
+    "cliente": "Daiana Altamirano ",
+    "correo": "daianadoraaltamirano@yahoo.com.ar",
+    "dni": 36710621,
+    "createdAt": 1682426854309,
+    "telefono": 3405512291,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": false,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 40,
+    "cliente": "Fabián Molassi ",
+    "correo": "fabianmolassi@gmail.com",
+    "dni": 40451941,
+    "createdAt": 1682383148534,
+    "telefono": 3483489096,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 43,
+    "cliente": "Facundo Foschiatti ",
+    "correo": "facundofoschiatti@gmail.com",
+    "dni": 45268404,
+    "createdAt": 1682429882187,
+    "telefono": 3482332538,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 44,
+    "cliente": "Germán Senn",
+    "correo": "senngerm@gmail.com",
+    "dni": 42770593,
+    "createdAt": 1682431911967,
+    "telefono": 3483495265,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 2,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 41,
+    "cliente": "Jorgelina Brasil ",
+    "correo": "joorbrasil18@gmail.com",
+    "dni": 40555296,
+    "createdAt": 1682422618622,
+    "telefono": 3405437054,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": false,
+        "talle": "S",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 47,
+    "cliente": "Lucas Snaider ",
+    "correo": "lucassnaider96@gmail.com",
+    "dni": 39856811,
+    "createdAt": 1682445980376,
+    "telefono": 3482200292,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 48,
+    "cliente": "German Lazzaroni ",
+    "correo": "germanlazzaroni@gmail.com",
+    "dni": 32902867,
+    "createdAt": 1682447803151,
+    "telefono": 3483526828,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "2XL",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "2XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 25,
+    "cliente": "Alejandro Folla",
+    "correo": "afolla@comunidad.frrq.utn.edu.ar",
+    "dni": 31136915,
+    "createdAt": 1681759566429,
+    "telefono": 3482262306,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 50,
+    "cliente": "Laureano Gimenez ",
+    "correo": "laureanogimenez0@gmail.com",
+    "dni": 43283484,
+    "createdAt": 1682452667386,
+    "telefono": 3483438032,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 6,
+    "cliente": "Natalia galvan ",
+    "correo": "nataliagalvan199@gmail.com",
+    "dni": 96121958,
+    "createdAt": 1681434460554,
+    "telefono": 3482224025,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": false,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 51,
+    "cliente": "Waldo villa ",
+    "correo": "waldosamuelvilla@gmail.com",
+    "dni": 38814659,
+    "createdAt": 1682453633027,
+    "telefono": 3482207073,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "M",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 55,
+    "cliente": "Federico Fontana",
+    "correo": "fontana.utn@gmail.com",
+    "dni": 42558634,
+    "createdAt": 1682461557150,
+    "telefono": 348215672468,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 56,
+    "cliente": "Federico Fontana",
+    "correo": "fontana.utn@gmail.com",
+    "dni": 42558634,
+    "createdAt": 1682462506345,
+    "telefono": 3482672468,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 57,
+    "cliente": "Federico Fontana",
+    "correo": "fontana.utn@gmail.com",
+    "dni": 42558634,
+    "createdAt": 1682462506660,
+    "telefono": 3482672468,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 54,
+    "cliente": "Juan Pablo Gonnet ",
+    "correo": "gonnetjuanpablo@gmail.com",
+    "dni": 40966691,
+    "createdAt": 1682460462345,
+    "telefono": 3482683569,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 52,
+    "cliente": "Javier Oscar Vitti",
+    "correo": "javier.vitti@gmail.com",
+    "dni": 37970473,
+    "createdAt": 1682455818784,
+    "telefono": 3482324434,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 49,
+    "cliente": "Juan Martín Venturini",
+    "correo": "juanmartinventurini@gmail.com",
+    "dni": 45641291,
+    "createdAt": 1682451046852,
+    "telefono": 3482208852,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      },
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 59,
+    "cliente": "Anyelen perez",
+    "correo": "anyelenperez0@gmail.com",
+    "dni": 39568624,
+    "createdAt": 1682466950935,
+    "telefono": 3482445686,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": false,
+        "talle": "S",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 60,
+    "cliente": "Nahuel Diaz",
+    "correo": "nahueld099@gmail.com",
+    "dni": 39124950,
+    "createdAt": 1682467351629,
+    "telefono": 3482315207,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 61,
+    "cliente": "Franco Ponce ",
+    "correo": "frannko13579@gmail.com",
+    "dni": 45641474,
+    "createdAt": 1682467861198,
+    "telefono": 3482636858,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "3XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": false,
+    "pagado": false
+  },
+  {
+    "id": 58,
+    "cliente": "Isaías Cipré ",
+    "correo": "isicipre63@gmail.com",
+    "dni": 42770508,
+    "createdAt": 1682466132889,
+    "telefono": 3483402369,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 46,
+    "cliente": "Picech Marcelo ",
+    "correo": "marceloopicech@gmail.com",
+    "dni": 46298674,
+    "createdAt": 1682436822139,
+    "telefono": 3482671069,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": true,
+        "talle": "XL",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 45,
+    "cliente": "Emmanuel Dalla Fontana",
+    "correo": "emmanuelfontana123@gmail.com",
+    "dni": 45344398,
+    "createdAt": 1682432324525,
+    "telefono": 3483460471,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": true,
+        "talle": "L",
+        "color": 2,
+        "cantidad": 1
+      }
+    ],
+    "titular": false,
+    "retirado": false,
+    "senia": false,
+    "pagado": true
+  },
+  {
+    "id": 2,
+    "cliente": "araceli nobile",
+    "correo": "aramaga64@hotmail.com",
+    "dni": 42770912,
+    "createdAt": 1681433923716,
+    "telefono": 3482508224,
+    "productos": [
+      {
+        "articulo": 2,
+        "genero": false,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": false
+  },
+  {
+    "id": 53,
+    "cliente": "Valentina Fontana ",
+    "correo": "valentinamfontana04@gmail.com",
+    "dni": 44576316,
+    "createdAt": 1682456236904,
+    "telefono": 3482557676,
+    "productos": [
+      {
+        "articulo": 1,
+        "genero": false,
+        "talle": "L",
+        "color": 1,
+        "cantidad": 1
+      }
+    ],
+    "titular": true,
+    "retirado": false,
+    "senia": true,
+    "pagado": true
+  }
+]
